@@ -29,8 +29,11 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-
+$routes->setAutoRoute(true);
+$routes->get('/penjumlahan/(:num)/(:num)', 'Latihan1::penjumlahan/$1/$2', [
+    'filter' => 'auth',
+    'model_latihan1' => new \App\Models\Model_latihan1(),
+]);
 /*
  * --------------------------------------------------------------------
  * Additional Routing
