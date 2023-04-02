@@ -1,3 +1,13 @@
+Nama Anggota 
+
+* M. Fariz A (17200611)
+* Agra Hardianto (17200175)
+* Anggita Sari Devi (17200794)
+* Annisa Nur Aulia (17200884)
+* Citra Putri Januari (17200834)
+* Marcellino Natanael (17200026)
+
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
